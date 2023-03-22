@@ -71,6 +71,7 @@ TARGET_COMMON_QTI_COMPONENTS += \
     nfc
 
 TARGET_NFC_SKU :=  c3qn
+TARGET_USES_PN5XX_HAL := true
 
 PRODUCT_PACKAGES += \
     libchrome.vendor \
@@ -85,7 +86,6 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPAFogFrameworksOverlay \
     FogFrameworksOverlay \
     FogPowerFrameworksOverlay \
     FogSettingsOverlay \
