@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_fog.mk
+    $(LOCAL_DIR)/evolution_fog.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_fog-user \
-    aosp_fog-userdebug \
-    aosp_fog-eng
+    evolution_fog-user \
+    evolution_fog-userdebug \
+    evolution_fog-eng
