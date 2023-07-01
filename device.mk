@@ -30,6 +30,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_paths_bengal_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_idp_india.xml
 
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.vendor.audio.policy.engine.odm=true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1650
 TARGET_SCREEN_WIDTH := 720
