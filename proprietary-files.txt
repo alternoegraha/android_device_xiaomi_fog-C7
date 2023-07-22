@@ -443,7 +443,6 @@ vendor/lib/libmulawdec.so|89ebb1d9e77911f1abe37405016839d8436a9825
 vendor/lib/libsmwrapper.so|e9c02a944c438adc37ff3598ea35ceb35c95b088
 
 # NFC - from FOG MIUI
-vendor/etc/libnfc-nci.conf|460fa825b24be70c5c9caaafb70a065e306f3df3
 vendor/etc/libnfc-nxp-pnscr.conf|c183fca43960ddd5e285bb841c92d5a9fc7b5d66
 vendor/etc/libnfc-nxp.conf|a6cd6ad29621e262d51c34cd9b1f1828c8f22e6d
 vendor/lib/libsn100u_fw.so|2bc1887b71b4557b75e26465f6917525bfd43e4a

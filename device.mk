@@ -81,6 +81,9 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.nfc.port=I2C \
     ro.hardware.nfc_nci=pn8x
 
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/nfc/,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPAFogFrameworksOverlay \
