@@ -73,7 +73,6 @@ TARGET_COMMON_QTI_COMPONENTS += \
 TARGET_NFC_SKU :=  c3qn
 
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.2-service \
     libchrome.vendor \
     SecureElement
 
@@ -92,7 +91,6 @@ PRODUCT_PACKAGES += \
     FogSettingsOverlay \
     FogSystemUIOverlay \
     FogWifiOverlay \
-    RainNfcOverlay \
     SettingsProvider220333QAGOverlay \
     SettingsProvider220333QLOverlay \
     SettingsProvider220333QBIOverlay \

@@ -16,13 +16,6 @@ service charger /system/bin/chargeonlymode
     capabilities SYS_BOOT
     seclabel u:r:charger:s0
 
-service vendor.secure_element_hal_service /vendor/bin/hw/android.hardware.secure_element@1.2-service
-    override
-    class hal
-    user secure_element
-    group secure_element nfc
-    disabled
-
 service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     override
     class hal
@@ -32,4 +25,3 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
 
 on boot && property:ro.boot.hwname=rain
     start vendor.nfc_hal_service
-    start vendor.secure_element_hal_service
