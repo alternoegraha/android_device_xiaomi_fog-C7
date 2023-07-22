@@ -258,7 +258,7 @@ vendor/lib64/camera/components/com.qti.node.eisv3.so|776114fef089bd9def46e0395d6
 vendor/lib64/camera/components/com.qti.node.fcv.so|0fef3a2c4f23770c18ac23947cebad620b4add36
 vendor/lib64/camera/components/com.qti.node.gpu.so|933cd2b2fe267da03e65806ddb6e43fd828f3e77
 vendor/lib64/camera/components/com.qti.node.memcpy.so|1f47048936a8b7da6b7fe104fb0da5b8d9f1b965
-vendor/lib64/camera/components/com.qti.node.mialgocontrol.so|ad27f8c642d01f3d3d6d02dc04da50a414dd62bc
+vendor/lib64/camera/components/com.qti.node.mialgocontrol.so|c5192b0ebd40c6546ac55fce873e3ccb7ff962c4
 vendor/lib64/camera/components/com.qti.node.mimovie.so|147a546c315c1e5e204482168af957c15bc4c3e4
 vendor/lib64/camera/components/com.qti.node.remosaic.so|dea6b03192d62f5412195f834e05ccce321c06c8
 vendor/lib64/camera/components/com.qti.node.stich.so|f5e9e3dc322c62e892c960577b903b3020560055
@@ -445,6 +445,10 @@ vendor/etc/libnfc-nxp-pnscr.conf|c183fca43960ddd5e285bb841c92d5a9fc7b5d66
 vendor/etc/libnfc-nxp.conf|a6cd6ad29621e262d51c34cd9b1f1828c8f22e6d
 vendor/lib/libsn100u_fw.so|2bc1887b71b4557b75e26465f6917525bfd43e4a
 vendor/lib64/libpn557_fw.so|5fd4d17960d258563557d47d70c4d9d11a79fd15
+
+# NFC (Secure element) - from FOG MIUI
+vendor/lib/android.hardware.secure_element@1.0-impl.so|0947cc1c37e9155bb39de775e8cd03188369935a
+vendor/lib64/android.hardware.secure_element@1.0-impl.so|b206e48000c62c62bfda7b6b004c5ec0605fd481
 
 # Power-off charging daemon - from FOG MIUI
 system/bin/charger:system/bin/chargeonlymode|8f26fadb55ac3bb2e6f69340b4c14348b6c11f0d
