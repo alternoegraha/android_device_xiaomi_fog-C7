@@ -190,4 +190,6 @@
     -->
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
     
+    <!-- Disable StatusBar burn-in protection -->
+    <bool name="config_disableStatusBarBurnInProtection">true</bool>
 </resources>
