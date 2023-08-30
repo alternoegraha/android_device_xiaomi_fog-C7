@@ -88,6 +88,7 @@ PRODUCT_PACKAGES += \
     AOSPAFogFrameworksOverlay \
     FogFrameworksOverlay \
     FogPowerFrameworksOverlay \
+    FogSettingsProviderOverlay \
     FogSettingsOverlay \
     FogSystemUIOverlay \
     FogWifiOverlay \
