@@ -88,6 +88,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     FogFrameworksOverlay \
     FogPowerFrameworksOverlay \
+    FogSettingsProviderOverlay \
     FogSettingsOverlay \
     FogSystemUIOverlay \
     FogWifiOverlay \
