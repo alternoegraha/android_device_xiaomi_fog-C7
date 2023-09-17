@@ -605,6 +605,9 @@ vendor/etc/sensors/hals.conf|593698edfd9c1e3ec90a7235f8320fdb9bb4b514
 vendor/etc/sensors/sns_reg_config|d516cd2088b375d75e83b3a6d093f6290396f4db
 vendor/etc/sensor_diag.cfg|ad39511c15df2a2279ddbb4f056071704b9ec891
 
+# Thermal - from FOG MIUI
+vendor/etc/thermal-normal.conf
+
 # Thermal configs - from FOG MIUI
 vendor/bin/mi_thermald|e3c9e29cf38cbd2751da29106f84f13fbe6b68db
 vendor/etc/thermal-4k.conf|5f18ad0fbc818f18cea35c218f6b71c1af804f78
