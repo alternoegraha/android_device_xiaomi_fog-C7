@@ -92,6 +92,7 @@ PRODUCT_PACKAGES += \
     FogSettingsOverlay \
     FogSystemUIOverlay \
     FogWifiOverlay \
+    NoCutoutOverlay \
     NotchBarKiller \
     SettingsProvider220333QAGOverlay \
     SettingsProvider220333QLOverlay \
