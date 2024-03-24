@@ -29,8 +29,12 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_fog
 TARGET_RECOVERY_DEVICE_MODULES := libinit_fog
 
 # Kernel
-BOARD_MKBOOTIMG_ARGS += --dtb $(DEVICE_PATH)-kernel/dtb.img
-BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)-kernel/dtbo.img
+KERNEL_DEFCONFIG := vendor/fog-perf_defconfig
+KERNEL_LLVM_SUPPORT := true
+TARGET_KERNEL_SOURCE := kernel/xiaomi/fog
+# use prebuilt DTBO
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
+TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := fog,rain,wind
